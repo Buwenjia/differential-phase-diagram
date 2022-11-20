@@ -29,10 +29,10 @@ set(h1,'position',[100,300,278,244]);
 set(gca,'looseInset',[0 0 0 0]) 
 [zn4,dn4]=PhaSpaRecon(y11,1,6);
 plot(zn4(1,:),dn4,'b','linewidth',1);
-% xlabel('D1s1(k)');ylabel('D1s1(k+¦Ó)');
+% xlabel('D1s1(k)');ylabel('D1s1(k+è€Œ)');
 ax = gca; 
 ax.XLabel.String = '\fontsize{10}D_{1}S_{1}(\fontsize{10}\rm{k})';
-ax.YLabel.String = '\fontsize{10}D_{1}S_{1}(\fontsize{10}\rm{k+¦Ó})';
+ax.YLabel.String = '\fontsize{10}D_{1}S_{1}(\fontsize{10}\rm{k+è€Œ})';
 set(gca,'LooseInset',get(gca,'TightInset'));
 set(gca,'FontName','Times New Roman','FontSize',10)
 
@@ -41,10 +41,10 @@ set(h1,'position',[400,300,278,244]);
 set(gca,'looseInset',[0 0 0 0]) 
 [zn4,dn4]=PhaSpaRecon(y21,1,6);
 plot(zn4(1,:),dn4,'b','linewidth',1);
-% xlabel('D1s2(k)');ylabel('D1s2(k+¦Ó)');
+% xlabel('D1s2(k)');ylabel('D1s2(k+è€Œ)');
 ax = gca; 
 ax.XLabel.String = '\fontsize{10}D_{1}S_{1}(\fontsize{10}\rm{k}) with SNR=40dB';
-ax.YLabel.String = '\fontsize{10}D_{1}S_{1}(\fontsize{10}\rm{k+¦Ó})';
+ax.YLabel.String = '\fontsize{10}D_{1}S_{1}(\fontsize{10}\rm{k+è€Œ})';
 set(gca,'LooseInset',get(gca,'TightInset'));
 set(gca,'FontName','Times New Roman','FontSize',10)
 
@@ -53,10 +53,10 @@ set(h1,'position',[700,300,278,244]);
 set(gca,'looseInset',[0 0 0 0]) 
 [zn4,dn4]=PhaSpaRecon(y31,1,6);
 plot(zn4(1,:),dn4,'b','linewidth',1);
-% xlabel('D1s3(k)');ylabel('D1s3(k+¦Ó)');
+% xlabel('D1s3(k)');ylabel('D1s3(k+è€Œ)');
 ax = gca; 
 ax.XLabel.String = '\fontsize{10}D_{1}S_{1}(\fontsize{10}\rm{k}) with SNR=35dB';
-% ax.YLabel.String = '\fontsize{10}D_{1}S_{1}(\fontsize{10}\rm{k+¦Ó})';
+% ax.YLabel.String = '\fontsize{10}D_{1}S_{1}(\fontsize{10}\rm{k+è€Œ})';
 set(gca,'LooseInset',get(gca,'TightInset'));
 set(gca,'FontName','Times New Roman','FontSize',10)
 
@@ -65,13 +65,12 @@ set(h1,'position',[1000,300,278,244]);
 set(gca,'looseInset',[0 0 0 0]) 
 [zn4,dn4]=PhaSpaRecon(y41,1,6);
 plot(zn4(1,:),dn4,'b','linewidth',1);
-% xlabel('D1s4(k)');ylabel('D1s4(k+¦Ó)');
+% xlabel('D1s4(k)');ylabel('D1s4(k+è€Œ)');
 ax = gca; 
 ax.XLabel.String = '\fontsize{10}D_{1}S_{1}(\fontsize{10}\rm{k}) with SNR=30dB';
-% ax.YLabel.String = '\fontsize{10}D_{1}S_{1}(\fontsize{10}\rm{k+¦Ó})';
+% ax.YLabel.String = '\fontsize{10}D_{1}S_{1}(\fontsize{10}\rm{k+è€Œ})';
 set(gca,'LooseInset',get(gca,'TightInset'));
 set(gca,'FontName','Times New Roman','FontSize',10)
-
 
 %%
 %Original phase diagram
@@ -80,10 +79,10 @@ set(h1,'position',[100,540,278,244]);
 set(gca,'looseInset',[0 0 0 0]) 
 [zn4,dn4]=PhaSpaRecon(x1,1,6);
 plot(zn4(1,:),dn4,'b','linewidth',1);
-% xlabel('s1(k)');ylabel('s1(k+¦Ó)');
+% xlabel('s1(k)');ylabel('s1(k+è€Œ)');
 ax = gca; 
 ax.XLabel.String = '\fontsize{10}S_{1}(\fontsize{10}\rm{k})';
-ax.YLabel.String = '\fontsize{10}S_{1}(\fontsize{10}\rm{k+¦Ó})';
+ax.YLabel.String = '\fontsize{10}S_{1}(\fontsize{10}\rm{k+è€Œ})';
 set(gca,'LooseInset',get(gca,'TightInset'));
 set(gca,'FontName','Times New Roman','FontSize',10)
 
@@ -92,10 +91,10 @@ set(h1,'position',[400,540,278,244]);
 set(gca,'looseInset',[0 0 0 0]) 
 [zn4,dn4]=PhaSpaRecon(x2,1,6);
 plot(zn4(1,:),dn4,'b','linewidth',1);
-% xlabel('s2(k)');ylabel('s2(k+¦Ó)');
+% xlabel('s2(k)');ylabel('s2(k+è€Œ)');
 ax = gca; 
 ax.XLabel.String = '\fontsize{10}S_{1}(\fontsize{10}\rm{k}) with SNR=40dB';
-ax.YLabel.String = '\fontsize{10}S_{1}(\fontsize{10}\rm{k+¦Ó})';
+ax.YLabel.String = '\fontsize{10}S_{1}(\fontsize{10}\rm{k+è€Œ})';
 set(gca,'LooseInset',get(gca,'TightInset'));
 set(gca,'FontName','Times New Roman','FontSize',10)
 
@@ -104,10 +103,10 @@ set(h1,'position',[700,540,278,244]);
 set(gca,'looseInset',[0 0 0 0]) 
 [zn4,dn4]=PhaSpaRecon(x3,1,6);
 plot(zn4(1,:),dn4,'b','linewidth',1);
-% xlabel('s3(k)');ylabel('s3(k+¦Ó)');
+% xlabel('s3(k)');ylabel('s3(k+è€Œ)');
 ax = gca; 
 ax.XLabel.String = '\fontsize{10}S_{1}(\fontsize{10}\rm{k}) with SNR=35dB';
-% ax.YLabel.String = '\fontsize{10}S_{1}(\fontsize{10}\rm{k+¦Ó})';
+% ax.YLabel.String = '\fontsize{10}S_{1}(\fontsize{10}\rm{k+è€Œ})';
 set(gca,'LooseInset',get(gca,'TightInset'));
 set(gca,'FontName','Times New Roman','FontSize',10)
 
@@ -116,9 +115,9 @@ set(h1,'position',[1000,540,278,244]);
 set(gca,'looseInset',[0 0 0 0]) 
 [zn4,dn4]=PhaSpaRecon(x4,1,6);
 plot(zn4(1,:),dn4,'b','linewidth',1);
-% xlabel('s4(k)');ylabel('s4(k+¦Ó)');
+% xlabel('s4(k)');ylabel('s4(k+è€Œ)');
 ax = gca; 
 ax.XLabel.String = '\fontsize{10}S_{1}(\fontsize{10}\rm{k}) with SNR=30dB';
-% ax.YLabel.String = '\fontsize{10}S_{1}(\fontsize{10}\rm{k+¦Ó})';
+% ax.YLabel.String = '\fontsize{10}S_{1}(\fontsize{10}\rm{k+è€Œ})';
 set(gca,'LooseInset',get(gca,'TightInset'));
 set(gca,'FontName','Times New Roman','FontSize',10)
